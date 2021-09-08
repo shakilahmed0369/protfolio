@@ -2,12 +2,13 @@ export const portfolios = {
   Web: [
     {
       type: "featured",
-      name: "Gradienta",
-      image: require("./image/gradienta.jpg"),
+      name: "LaraStarter",
+      image: require("./image/larastarter.jpeg"),
       description:
-        "A Collection of free Multicolor CSS, JPG, PNG, SVG Gradients with a Gradienta Editor",
-      demo: "https://gradienta.io",
-      tools: ["gatsby", "netlify", "ga", "forestry"],
+        "Lara Starter is highly capable and customizable Laravel Starter pack.",
+      demo: "https://github.com/ShakilAhmed007/lara-starter",
+      source: "https://github.com/ShakilAhmed007/lara-starter",
+      tools: ["laravel", "bootstrap", "spite auth"],
     },
     {
       type: "featured",
