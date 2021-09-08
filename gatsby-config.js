@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    pathPrefix: "/protfolio",
     title: `Full Stack Developer`,
     description: `My personal portfolio website`,
     author: `@zonayedpca`,
@@ -11,8 +12,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `zonayed.me`,
-        short_name: `zonayed.me`,
+        name: `protfolio`,
+        short_name: `protfolio`,
         start_url: `/`,
         background_color: `#111a28`,
         theme_color: `#1d293a`,
