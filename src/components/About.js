@@ -14,7 +14,7 @@ const About = () => {
         <div className="about">
           <div className="about-details">
             <p>
-              Hello! I'm Zonayed Ahmed, a passionate software engineer. I
+              Hello! I'm Shakil Ahmed, a passionate software engineer. I
               develop web applications, mobile applications, and desktop
               applications. My core skill is based on JavaScript and I love to
               do most of the things using JavaScript. I love to make the web
