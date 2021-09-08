@@ -1,9 +1,9 @@
 export const skills = {
   Web: [
-    { name: "React", percent: 90 },
-    { name: "Gatsby", percent: 90 },
-    { name: "Next.JS", percent: 75 },
-    { name: "Node JS", percent: 80 },
+    { name: "Laravel", percent: 90 },
+    { name: "React", percent: 75 },
+    { name: "Bootstrap", percent: 90 },
+    { name: "Tailwind", percent: 80 },
     { name: "Express JS", percent: 90 },
     { name: "MongoDB", percent: 90 },
     { name: "MySQL", percent: 85 },
