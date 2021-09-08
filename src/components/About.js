@@ -14,14 +14,12 @@ const About = () => {
         <div className="about">
           <div className="about-details">
             <p>
-              Hello! I'm Shakil Ahmed, a passionate software engineer. I
-              develop web applications, mobile applications, and desktop
-              applications. My core skill is based on JavaScript and I love to
-              do most of the things using JavaScript. I love to make the web
-              more open to the world. I have graduated with a bachelor's degree
-              in Computer Science Engineering from Chandigarh University at
-              Punjab, India in 2020. I am available for any kind of job
-              opportunity that suits my interests.
+            I am a web developer with a vast array of knowledge in many different
+            front end and back end languages, responsive frameworks, databases, and best code practices. My objective is simply to be the best web developer
+            that I can be and to contribute to the technology industry all that I know
+            and can do. I am dedicated to perfecting my craft by learning from more
+            seasoned developers, remaining humble, and continuously making strides to 
+            learn all that I can about development.
             </p>
             <div className="about-action">
               <Button
