@@ -12,13 +12,13 @@ export const portfolios = {
     },
     {
       type: "featured",
-      name: "DevSonket",
-      image: require("./image/devsonket.jpg"),
+      name: "Disne Plus Clone",
+      image: require("./image/disne.png"),
       description:
-        "A Collection of Bengali Cheatsheets for the developers, completely open-source",
-      demo: "https://devsonket.com",
-      source: "https://github.com/devsonket/devsonket.github.io",
-      tools: ["gatsby", "json", "travis ci"],
+        "A Disne plus steming site pixle perfect clone with react",
+      demo: "https://disneplus.netlify.app",
+      source: "https://github.com/ShakilAhmed007/react-disney-plus-clone",
+      tools: ["React", "React style component", "redux"],
     },
     {
       type: "featured",
