@@ -9,6 +9,7 @@ import { Logo } from "./logo"
 import "./header.css"
 
 const Header = () => {
+
   const [mobileNav, setMobileNav] = useState(false)
   const headerEl = useRef()
   if (typeof window !== `undefined`) {
@@ -18,16 +19,19 @@ const Header = () => {
       const difference = prevScrollPosition - curScrollPosition
       const { current } = headerEl
       setMobileNav(false)
-      if (curScrollPosition > 100) {
-        current.classList.add("compaq")
-      } else {
-        current.classList.remove("compaq")
+      if(current){
+        if (curScrollPosition > 100) {
+          current.classList.add("compaq")
+        } else {
+          current.classList.remove("compaq")
+        }
+        if (difference < 0) {
+          current.classList.add("hide")
+        } else {
+          current.classList.remove("hide")
+        }
       }
-      if (difference < 0) {
-        current.classList.add("hide")
-      } else {
-        current.classList.remove("hide")
-      }
+
       prevScrollPosition = curScrollPosition
     })
   }

@@ -7,6 +7,7 @@ import { portfolios } from "../data"
 
 import "./portfolio.css"
 import PortfolioAction from "./PortfolioAction"
+import { Link } from "gatsby"
 
 const Portfolio = () => {
   const portfoliosName = Object.keys(portfolios)
@@ -17,6 +18,7 @@ const Portfolio = () => {
   const selectedPortfolios = portfolios[selectedPortfolio].filter(
     portfolio => portfolio.type === "regular"
   )
+  const [id, setId] = useState(0)
   return (
     <div id="portfolio" className="portfolio-area">
       <Container>
@@ -43,13 +45,12 @@ const Portfolio = () => {
                 </div>
                 <div className="details">
                   <h4>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href={portfolio.demo}
+                    <Link
+                      to={'/show'}
+                      state={{ index: index }}
                     >
                       {portfolio.name}
-                    </a>
+                    </Link>
                   </h4>
                   <p>{portfolio.description}</p>
                   <div className="links">
