@@ -4,7 +4,9 @@ import { portfolios } from "../data"
 import "../components/lovetodo.css"
 function Show({location}) {
  const newData = portfolios.Web.filter((value, index, arr) => {
-    return arr.indexOf(value) === location.state.index;
+   if(location.state.index){
+     return arr.indexOf(value) === location.state.index;
+   }
   })
 
 
