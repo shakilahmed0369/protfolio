@@ -5,7 +5,7 @@ export const portfolios = {
       type: "featured",
       name: "LaraStarter",
       image: require("./image/larastarter.jpeg"),
-      allImage: ['this', 'is', 'a', 'simple', 'image'],
+      allImage: ['disney1.png', 'disney2.png', 'disney3.png'],
       description:
         "Lara Starter is highly capable and customizable Laravel Starter pack.",
       demo: "https://github.com/ShakilAhmed007/lara-starter",
@@ -17,7 +17,7 @@ export const portfolios = {
       type: "featured",
       name: "Disney Plus Clone",
       image: require("./image/disne.png"),
-      allImage: ['this', 'is', 'a', 'simple', 'image'],
+      allImage: [ 'disney2.png','disney1.png', 'disney3.png'],
       description:
         "A Disney plus stemming site pixel perfect clone with react",
       demo: "https://disneplus.netlify.app",

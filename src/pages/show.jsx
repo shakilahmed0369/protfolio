@@ -24,10 +24,9 @@ function Show({location}) {
 
             {
               newData[0].allImage.map((image) => {
-               return <img key={image} style={{ width: "100%", marginTop: "20px", borderRadius: "5px" }} src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="dsa" />
+               return <img key={image} style={{ width: "100%", marginTop: "20px", borderRadius: "5px" }} src={"../../" + image} alt={image} />
               })
             }
-
 
           </div>
         </div>) : ''
