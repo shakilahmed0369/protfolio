@@ -25,29 +25,18 @@ export const portfolios = {
       tools: ["React", "React style component", "redux"],
     },
     {
-      id: "3",
+      id: "2",
       type: "featured",
-      name: "js.zonayed.me",
-      image: require("./image/js.zonayed.me.png"),
-      allImage: ['this', 'is', 'a', 'simple', 'image'],
+      name: "Disney Plus Clone",
+      image: require("./image/disne.png"),
+      allImage: [ 'disney2.png','disney1.png', 'disney3.png'],
       description:
-        "Learn Practical use case of JavaScript in your everyday life, entirely in Bengali",
-      demo: "https://zonayed.js.org",
-      source: "https://github.com/zonayedpca/js.zonayed.me",
-      tools: ["gatsby", "utterances", "travis ci"],
+        "A Disney plus stemming site pixel perfect clone with react",
+      demo: "https://disneplus.netlify.app",
+      source: "https://github.com/ShakilAhmed007/react-disney-plus-clone",
+      tools: ["React", "React style component", "redux"],
     },
-
-    {
-      id: "4",
-      type: "regular",
-      name: "PWA Blog",
-      allImage: ['this', 'is', 'a', 'simple', 'image'],
-      description:
-        "A Simple blog powered by WP-Rest API and React, Progressive Web App supported",
-      demo: "https://zonayedjsv1.netlify.com",
-      source: "https://github.com/zonayedpca/old.js.zonayed.me",
-      tools: ["react", "pwa"],
-    },
+    
   ],
   Others: [
     
