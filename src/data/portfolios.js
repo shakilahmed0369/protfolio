@@ -22,10 +22,10 @@ export const portfolios = {
         "A Fancy library web app",
       // demo: "https://disneplus.netlify.app",
       source: "https://github.com/shakilahmed0369/book-repo",
-      tools: ["Laravel"],
+      tools: ["Laravel", "react"],
     },
     {
-      id: "2",
+      id: "3",
       type: "featured",
       name: "Disney Plus Clone",
       image: require("./image/disne.png"),
