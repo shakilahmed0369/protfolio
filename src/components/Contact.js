@@ -22,7 +22,7 @@ const Contact = () => {
                 mt="25px"
                 bgColor="#00cf5d"
                 color="#fff"
-                link="mailto:zonayedpca@gmail.com"
+                link="mailto:shakilahmed0369@gmail.com"
               />
             </div>
           </div>
@@ -31,24 +31,18 @@ const Contact = () => {
               <li>
                 <h5>Email</h5>
                 <p>
-                  zonayedpca@gmail.com <span>(Recommended)</span>
-                </p>
-              </li>
-              <li>
-                <h5>Skype</h5>
-                <p>
-                  zonayedpca <span>(Always Available)</span>
+                  shakilahmed0369@gmail.com <span>(Recommended)</span>
                 </p>
               </li>
               <li>
                 <h5>Social</h5>
                 <p>
-                  Facebook/Twitter - @zonayedpca <span>(Slow response)</span>
+                  Facebook/Twitter - @shakilahmed0369 <span>(Always Available)</span>
                 </p>
               </li>
               <li>
                 <h5>Address</h5>
-                <p>Gouripur, Daudkandi, Cumilla, Bangladesh - 3517</p>
+                <p>Mohammadpur, Dhaka, Bangladesh - 1207</p>
               </li>
             </ul>
           </div>

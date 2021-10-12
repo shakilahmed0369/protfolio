@@ -15,14 +15,14 @@ export const portfolios = {
     {
       id: "2",
       type: "featured",
-      name: "Disney Plus Clone",
-      image: require("./image/disne.png"),
-      allImage: [ 'disney2.png','disney1.png', 'disney3.png'],
+      name: "Book Repo library",
+      image: require("./image/book1.png"),
+      allImage: [ 'book.png'],
       description:
-        "A Disney plus stemming site pixel perfect clone with react",
-      demo: "https://disneplus.netlify.app",
+        "A Fancy library web app",
+      // demo: "https://disneplus.netlify.app",
       source: "https://github.com/ShakilAhmed007/react-disney-plus-clone",
-      tools: ["React", "React style component", "redux"],
+      tools: ["Laravel"],
     },
     {
       id: "2",

@@ -86,7 +86,7 @@ const Header = () => {
                 Contact
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 target="__blank"
                 rel="noopener noreferrer"
@@ -94,7 +94,7 @@ const Header = () => {
               >
                 Blog
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 className="btn-download"

@@ -10,6 +10,11 @@ export const languages = [
     progress: 75,
   },
   {
+    id: "Japanese",
+    text: "ありがとう",
+    progress: 60,
+  },
+  {
     id: "Urdu",
     text: "شکریہ",
     progress: 50,

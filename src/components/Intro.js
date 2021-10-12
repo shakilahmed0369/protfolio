@@ -17,7 +17,7 @@ const Intro = () => {
             <ul>
               <li>Web Developer</li>
               <li>Programmer</li>
-              <li>Software Engineer</li>
+              {/* <li>Software Engineer</li> */}
             </ul>
             <div className="action">
               <Button
