@@ -100,7 +100,8 @@ const Header = () => {
                 className="btn-download"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/shakilahmed0369/protfolio/blob/master/src/data/file/MyResume.pdf"
+                href="https://raw.githubusercontent.com/shakilahmed0369/protfolio/master/src/data/file/MyResume.pdf"
+                
               >
                 Resume
               </a>
