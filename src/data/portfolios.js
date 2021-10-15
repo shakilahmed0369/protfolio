@@ -25,6 +25,18 @@ export const portfolios = {
       tools: ["Laravel", "react"],
     },
     {
+      id: "2",
+      type: "featured",
+      name: "Star tech (clone)",
+      image: require("./image/star.jpg"),
+      allImage: ['star1.jpg', 'star2.jpg', 'star3.jpg'],
+      description:
+        "A clone of startech e ecommerce website",
+      demo: "https://shakilahmed0369.github.io/star-tech/",
+      source: "https://github.com/shakilahmed0369/star-tech",
+      tools: ["bootstrap", "javascript", 'scss'],
+    },
+    {
       id: "3",
       type: "featured",
       name: "Disney Plus Clone",
