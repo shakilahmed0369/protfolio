@@ -5,7 +5,7 @@ export const portfolios = {
       type: "featured",
       name: "LaraStarter",
       image: require("./image/larastarter.jpeg"),
-      allImage: ['disney1.png', 'disney2.png', 'disney3.png'],
+      allImage: ['lara.jpg'],
       description:
         "Lara Starter is highly capable and customizable Laravel Starter pack.",
       demo: "https://github.com/ShakilAhmed007/lara-starter",
@@ -17,7 +17,7 @@ export const portfolios = {
       type: "featured",
       name: "Book Repo library",
       image: require("./image/book1.png"),
-      allImage: [ 'book.png'],
+      allImage: ['book.png'],
       description:
         "A Fancy library web app",
       // demo: "https://disneplus.netlify.app",
