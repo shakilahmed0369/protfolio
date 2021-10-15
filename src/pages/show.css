@@ -1,3 +1,14 @@
+.go-back {
+    padding: 10px;
+    background: #00cf5d;
+    display: inline;
+    position: fixed;
+    top: 0;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1200px){
     /*Tablets [601px -> 1200px]*/
     .love-to-do {

@@ -3,6 +3,7 @@ import { Container, Title } from '../components/common'
 import { portfolios } from "../data"
 import "../components/lovetodo.css"
 import "./show.css"
+import { navigate } from "gatsby";
 function Show({location}) {
   console.log(location.state);
  const newData = portfolios.Web.filter((value, index, arr) => {
@@ -34,6 +35,7 @@ function Show({location}) {
         }
         
       </Container>
+      <div onClick={() => navigate(-1)} className="go-back"> go back</div>
     </div>
   )
 }
