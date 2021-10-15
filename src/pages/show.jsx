@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Title } from '../components/common'
 import { portfolios } from "../data"
 import "../components/lovetodo.css"
+import "./show.css"
 function Show({location}) {
   console.log(location.state);
  const newData = portfolios.Web.filter((value, index, arr) => {
