@@ -3,6 +3,18 @@ export const portfolios = {
     {
       id: "1",
       type: "featured",
+      name: "Management System",
+      image: require("./image/food1.png"),
+      allImage: ['food1.png', 'food2.png', 'food3.png', 'food4.png', 'food6.png', 'food7.png'],
+      description:
+        "Laravel restaurant management system. Backend for restaurant anroid app.",
+      // demo: "https://github.com/ShakilAhmed007/lara-starter",
+      // source: "https://github.com/ShakilAhmed007/lara-starter",
+      tools: ["laravel", "bootstrap", 'jquery datatable'],
+    },
+    {
+      id: "1",
+      type: "featured",
       name: "LaraStarter",
       image: require("./image/larastarter.jpeg"),
       allImage: ['lara.jpg'],

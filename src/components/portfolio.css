@@ -189,3 +189,10 @@
     margin-top: 15px;
   }
 }
+
+.portfolio-img img {
+  height: 233px;
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
