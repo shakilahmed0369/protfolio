@@ -3,6 +3,18 @@ export const portfolios = {
     {
       id: "2",
       type: "featured",
+      name: "Galaxy Telecom",
+      image: require("./image/galaxtelicom-thumb.jpg"),
+      allImage: ['galaxtelicom.jpg', 'galaxtelicom2.jpg'],
+      description:
+        "Api development for android app and custom feature building",
+      demo: "https://www.galaxytelecom.fr/",
+      // source: "https://github.com/ShakilAhmed007/lara-starter",
+      tools: ["Laravel", "Vue", 'Rest api'],
+    },
+    {
+      id: "2",
+      type: "featured",
       name: "Grontho Ghor",
       image: require("./image/book11.png"),
       allImage: ['book1.png', 'book2.png', 'book3.png', 'book4.png', 'book5.png', 'book6.png', 'book7.png'],
