@@ -74,7 +74,7 @@ export const portfolios = {
     },
     
   ],
-  Others: [
+  // Others: [
     
-  ],
+  // ],
 }
