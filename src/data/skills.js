@@ -8,6 +8,8 @@ export const skills = {
     { name: "Bootstrap", percent: 90 },
     { name: "Tailwind", percent: 80 },
     { name: "MySQL", percent: 85 },
+    { name: "Git", percent: 90 },
+    { name: "Docker", percent: 60 },
   ],
   // Others: [
   //   { name: "Inertia", percent: 85 },
@@ -22,9 +24,7 @@ export const skills = {
   //   { name: "C++", percent: 40 },  
   // ],
   Tools: [
-    { name: "Git", percent: 90 },
     { name: "Insomnia / Post Man", percent: 80 },
-    { name: "Docker", percent: 60 },
     { name: "Vs Code", percent: 60 },
     { name: "Figma", percent: 80 },
     { name: "Photoshop", percent: 80 },
