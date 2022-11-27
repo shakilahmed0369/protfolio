@@ -57,7 +57,7 @@ export const Title = ({ title, social, side, height }) => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://twitter.com/shakilahmed0369"
+              href="https://twitter.com/dev_shakil01"
             >
               <FaTwitter />
             </a>
