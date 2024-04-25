@@ -51,7 +51,7 @@ export const portfolios = {
     {
       id: "2",
       type: "featured",
-      name: "Book Repo library",
+      name: "Book Repo library x",
       image: require("./image/book1.png"),
       allImage: ['book.png'],
       description:
