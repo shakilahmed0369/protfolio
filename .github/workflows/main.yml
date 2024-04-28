@@ -17,4 +17,4 @@ jobs:
         server: ftp.shakilahmeed.com
         username: shakilah
         password: shakilahmed01969@#$%
-        local-dir: public
+        local-dir: public/
