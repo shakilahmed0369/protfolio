@@ -31,7 +31,7 @@
   "license": "MIT",
   "scripts": {
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "build": "gatsby build && git checkout build && rm -rf * && mv public/* . && git add . && git commit -m 'Update build' && git push origin build && git checkout master",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

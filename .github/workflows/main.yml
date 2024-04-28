@@ -1,0 +1,23 @@
+on:
+  push:
+    branches:
+      - master
+name: Deploy website on push
+jobs:
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v3
+
+    - name: Build project
+      run: npm run build
+
+    - name: Deploy public folder
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ftp.shakilahmeed.com
+        username: shakilah
+        password: shakilahmed01969@#$%
+        local-dir: public
