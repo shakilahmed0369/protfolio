@@ -15,6 +15,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.shakilahmeed.com
-        username: ci-cd@shakilahmeed.com
-        password: shakilahmed
+        username: shakilah
+        password: 4YZz*3oF$:s{
         local-dir: public/
