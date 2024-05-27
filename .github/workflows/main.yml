@@ -16,5 +16,5 @@ jobs:
       with:
         server: ftp.shakilahmeed.com
         username: shakil@shakilahmeed.com
-        password: shakilahmed
+        password: ${{ secrets.password }}
         local-dir: public/
